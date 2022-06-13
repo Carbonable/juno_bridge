@@ -1,0 +1,11 @@
+version: '2'
+services:
+
+  db:
+    image: postgres:alpine
+    environment:
+      POSTGRES_USER: carbo
+      POSTGRES_PASSWORD: carbo1
+    ports:
+      - 5432:5432
+
